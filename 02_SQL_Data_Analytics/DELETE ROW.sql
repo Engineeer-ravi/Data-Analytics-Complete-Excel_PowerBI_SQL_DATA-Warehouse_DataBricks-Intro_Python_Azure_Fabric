@@ -1,0 +1,13 @@
+SELECT * FROM DIMPRODUCT_rk
+
+DELETE FROM DIMPRODUCT_rk
+
+DELETE FROM DimProduct_BKUP
+WHERE Color='Red'
+
+SELECT * FROM DimProduct_BKUP
+
+TRUNCATE TABLE DimProduct_bk3 
+
+
+SELECT * FROM DimProduct_bk3

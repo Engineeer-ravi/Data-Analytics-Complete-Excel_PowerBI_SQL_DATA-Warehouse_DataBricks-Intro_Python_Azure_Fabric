@@ -1,0 +1,19 @@
+/*A Primary Key is a column (or a set of columns) in a table that uniquely 
+identifies each record (row) in that table.*/
+
+
+
+CREATE TABLE EMPLOYEES_NEW(
+Emp_id int PRIMARY KEY,
+Emp_Name VARCHAR(100),
+DOJ DATETIME ,
+SALARY FLOAT)
+
+
+INSERT INTO EMPLOYEES_NEW VALUES(1,'RAVI','2023-01-12',20000)
+
+INSERT INTO EMPLOYEES_NEW VALUES(1,'AMAN','2023-03-12',30000)
+
+INSERT INTO EMPLOYEES_NEW VALUES(NULL,'SATYAM','2026-01-02',30000)
+
+SELECT *FROM EMPLOYEES_NEW
